@@ -15,7 +15,7 @@ public class MainClass {
 		TransportationWalk transportationWalk = ctx.getBean("tWalk", TransportationWalk.class);
 		transportationWalk.move();
 		
-		// 닫아줌 
+		// 닫아주기 
 		ctx.close();
 	}
 }
