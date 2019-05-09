@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+ 		http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- 아래 방법을 사용하면 new keyword를 사용해 생성할 필요 없음. class는 package명까지 풀네임으로 적어 -->
+	<bean id="tWalk" class="testPjt.TransportationWalk"/>
+	
+</beans>
