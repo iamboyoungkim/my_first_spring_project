@@ -72,6 +72,4 @@ public class StudentAssembler {
 	public void setAllSelectService(StudentAllSelectService allSelectService) {
 		this.allSelectService = allSelectService;
 	}
-
-	
 }

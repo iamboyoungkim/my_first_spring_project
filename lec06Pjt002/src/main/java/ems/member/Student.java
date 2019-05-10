@@ -19,7 +19,6 @@ public class Student {
 		this.sAge = sAge;
 		this.sGender = sGender;
 		this.sMajor = sMajor;
-		
 	}
 
 	public String getsNum() {

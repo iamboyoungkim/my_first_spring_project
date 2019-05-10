@@ -16,8 +16,7 @@
 	<bean id="wordDao2" class="com.word.dao.WordDao" />
 	<bean id="wordDao3" class="com.word.dao.WordDao" />
 	
-	<bean id="registerService" class="com.word.service.WordRegisterServiceUseAutowired" />
+	<bean id="registerService" class="com.word.service.WordRegisterServiceUsetotowired" />
 	
 	<bean id="searchService" class="com.word.service.WordSearchServiceUseAutowired" />
-	
 </beans>
